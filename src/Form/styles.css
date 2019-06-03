@@ -1,0 +1,33 @@
+.error--form--status,
+.has-error {
+  color: #f00;
+  transition: all 1s ease-in-out;
+}
+
+.form--validation {
+  width: 400px;
+	margin: 20px auto;
+}
+
+.field--info,
+.button--info {
+  margin: 10px 0px;
+}
+
+.field--info input,
+.button--info {
+  width: 100%;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.headline {
+  padding: 10px 0px;
+  text-align: center;
+}
