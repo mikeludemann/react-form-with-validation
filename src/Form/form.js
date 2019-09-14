@@ -87,7 +87,7 @@ class Form extends Component {
         <div className="panel panel-default error--status">
           <errorForm errorForms={this.state.errorForms} />
         </div>
-        <div className={`field--info ${this.errorClass(this.state.errorForms.lastname)}`}>
+        <div className={`field--info ${this.errorClass(this.state.errorForms.firstname)}`}>
           <div>
             <label htmlFor="firstname">First Name:</label>
           </div>
